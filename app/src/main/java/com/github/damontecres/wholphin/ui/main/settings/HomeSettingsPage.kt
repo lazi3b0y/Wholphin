@@ -207,6 +207,8 @@ fun HomeSettingsPage(
                                         when (row.config) {
                                             is HomeRowConfig.ContinueWatching,
                                             is HomeRowConfig.ContinueWatchingCombined,
+                                            is HomeRowConfig.NextUp,
+                                            is HomeRowConfig.RecentlyReleased,
                                             -> Options.OPTIONS_EPISODES
 
                                             is HomeRowConfig.Genres -> Options.GENRE_OPTIONS
